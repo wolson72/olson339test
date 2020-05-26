@@ -20,7 +20,8 @@
    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   
   <!--link to your css here -->
-  <link rel="stylesheet" href="css/starter2.css" type="text/css">
+  <link rel="stylesheet" href="css/starter3.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
   </head>
   
   <!-- body -->
@@ -45,24 +46,25 @@
 
   <section>
     <div class="moodboard">
-        <div class="big"><img src="images/layout.jpg" alt="graphic design layout" /></div>
-        <div class="big"> <img src="images/chairs.jpg" alt="chairs" /></div>
-        <div class="big"><img src="images/modern.jpg" alt="architecture" /></div>
-        <div class="big"><img src="images/aestheticbench.png" alt="graphic design layout" /></div>
-        <div class="big"> <img src="images/car.jpg" alt="chairs" /></div>
-        <div class="big"><img src="images/bench.jpg" alt="architecture" /></div>
-        <div class="big"><img src="images/concret4.jpg" alt="graphic design layout" /></div>
-        <div class="big"> <img src="images/landscape.jpg" alt="chairs" /></div>
-        <div class="big"><img src="images/loft.jpg" alt="graphic design layout" /></div>
-        <div class="big"> <img src="images/plants.png" alt="chairs" /></div>
-        <div class="big"> <img src="images/woodroom.jpg" alt="chairs" /></div>
-        <div class="big"> <img src="images/poolhouse.jpg" alt="chairs" /></div>
-        <div class="big"> <img src="images/whiteroom.jpg" alt="chairs" /></div>
-        <div class="big"> <img src="images/coolchair.jpg" alt="chairs" /></div>
-        <div class="big"> <img src="images/window.jpg" alt="chairs" /></div>
+        <div class="big"><a class="moodboard" href="images/layout.jpg" data-fancybox="images" data-caption="One example of a layout I really enjoy.">
+        <img src="images/layoutsm.png" alt="graphic design layout" /></a>
+        </div>
+        <div class="big"><a class="moodboard" href="images/chairs.jpg" data-fancybox="images" data-caption="Two Chairs I hope to have when I get older.">
+        <img src="images/chairssm.png" alt="woven chairs with bookcase" /></a>
+        </div>
+        <div class="big"><a class="moodboard" href="images/modern.jpg" data-fancybox="images" data-caption="A contemporary take of wood and adobe together.">
+            <img src="images/modernsm.png" alt="A contemporary take of wood and adobe together." /></a>
+            </div>
+        <div class="big"><a class="moodboard" href="images/aestheticbench.png" data-fancybox="images" data-caption="A classy contemporary bench">
+                <img src="images/aestheticbenchsm.png" alt="A classy contemporary bench" /></a>
+                </div>
+        <div class="big"><a class="moodboard" href="images/car.jpg" data-fancybox="images" data-caption="A cool vintage car">
+                    <img src="images/carsm.png" alt="A cool vintage car" /></a>
+                    </div>
     </div>
     </section>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
 </body>
 </html>
    
