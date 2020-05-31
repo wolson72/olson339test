@@ -325,6 +325,15 @@ display: block;
 }
 
 
+.lightboxtitle h1{
+padding-top: 2rem;
+font-family: 'work sans';
+margin: 0 auto;
+width: 90%;
+color: #444444;
+text-align: center;
+}
+
 
 
 
